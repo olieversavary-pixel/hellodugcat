@@ -1,5 +1,5 @@
 ---
-title: About Action
+title: The Great Optimization Campaign
 author: savary
 pubDatetime: 2026-08-20T12:12:12Z
 featured: true

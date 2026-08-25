@@ -5,7 +5,7 @@ pubDatetime: 2026-08-19T12:12:12Z
 featured: true
 draft: false
 tags: ["mind"]
-description: 大梦一场犹初醒，如在世间，若举今昔戏中人，道在经验
+description: 道本道
 ---
 ### Teach a Person to Fish, Not Just Give Them a Fish
 

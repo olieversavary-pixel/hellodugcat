@@ -1,5 +1,5 @@
 ---
-title: MARK
+title: Making Sense of the Perpetual Mind
 author: savary
 pubDatetime: 2026-08-18T12:12:12Z
 featured: true
