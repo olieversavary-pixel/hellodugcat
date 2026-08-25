@@ -12,29 +12,26 @@ export async function GET() {
   const posts = await getCollection("posts");
   const sortedPosts = getSortedPosts(posts);
 
-  // 清理 HTML 配置
-  const sanitizeOptions = {
-    allowedTags: sanitizeHtml.defaults.allowedTags.concat(['img', 'code', 'pre']),
-    allowedAttributes: { img: ['src', 'alt'], a: ['href'] },
-  };
-
   return rss({
     title: config.site.title,
     description: config.site.description,
     site: config.site.url,
     items: sortedPosts.map((post) => {
-      // 生成完整链接
-      const link = new URL(getPostUrl(post.id, post.filePath, config.site.lang), config.site.url).toString();
-      // 安全获取日期
-      const date = post.data.modDatetime ?? post.data.pubDatetime;
-      const pubDate = date instanceof Date ? date : new Date(date);
+      const html = parser.render(post.body ?? "");
+      const cleanHtml = sanitizeHtml(html);
+
+      const postUrl = new URL(
+        getPostUrl(post.id, post.filePath, config.site.lang),
+        config.site.url
+      ).href;
 
       return {
-        link,
+        link: postUrl,
         title: post.data.title,
         description: post.data.description,
-        pubDate,
-        content: sanitizeHtml(parser.render(post.body ?? ''), sanitizeOptions),
+        pubDate: new Date(post.data.modDatetime ?? post.data.pubDatetime),
+        // @astrojs/rss 会自动处理 CDATA 与 content:encoded 标签，无需额外写 customData
+        content: cleanHtml,
       };
     }),
   });
