@@ -3,6 +3,10 @@ import { getCollection } from "astro:content";
 import { getSortedPosts } from "@/utils/getSortedPosts";
 import { getPostUrl } from "@/utils/getPostPaths";
 import config from "@/config";
+import sanitizeHtml from "sanitize-html";
+import MarkdownIt from "markdown-it";
+
+const parser = new MarkdownIt();
 
 export async function GET() {
   const posts = await getCollection("posts");
@@ -12,11 +16,13 @@ export async function GET() {
     title: config.site.title,
     description: config.site.description,
     site: config.site.url,
-    items: sortedPosts.map(({ data, id, filePath }) => ({
-      link: getPostUrl(id, filePath, config.site.lang),
-      title: data.title,
-      description: data.description,
-      pubDate: new Date(data.modDatetime ?? data.pubDatetime),
+    items: sortedPosts.map((post) => ({
+      link: getPostUrl(post.id, post.filePath, config.site.lang),
+      title: post.data.title,
+      description: post.data.description,
+      pubDate: new Date(post.data.modDatetime ?? post.data.pubDatetime),
+      // 新增正文解析渲染
+      content: sanitizeHtml(parser.render(post.body ?? "")),
     })),
   });
 }
