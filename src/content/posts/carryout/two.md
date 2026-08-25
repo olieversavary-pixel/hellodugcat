@@ -6,7 +6,6 @@ featured: true
 draft: false
 tags: ["Actions"]
 description: 思考形式化工具對思維整理的必要性
-audio: /qin1.mp3
 ---
 # 随笔
 - Aug 21nd,2026
