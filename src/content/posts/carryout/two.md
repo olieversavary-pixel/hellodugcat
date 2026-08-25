@@ -1,7 +1,7 @@
 ---
 title: Formalization:Record,Translation and Decipherment
 author: savary
-pubDatetime: 2026-08-21T12:12:12Z
+pubDatetime: 2026-08-23T12:12:12Z
 featured: true
 draft: false
 tags: ["Actions"]
