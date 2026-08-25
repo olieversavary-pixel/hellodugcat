@@ -5,7 +5,7 @@ pubDatetime: 2026-08-16T12:12:12Z
 featured: true
 draft: false
 tags: ["mind"]
-description: A Thought Adventure,Isn't It?
+description: 我的非線性概念橋
 ---
 # Bridge — The Link And The Locus
 

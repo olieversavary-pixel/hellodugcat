@@ -5,7 +5,7 @@ pubDatetime: 2026-08-17T12:12:12Z
 featured: true
 draft: false
 tags: ["mind"]
-description: A Thought Adventure,Isn't It? Yeah!
+description: 不同狀態下的不變量——理解與實踐的差距
 ---
 # Personal Reflections on Learning Drawing and Design, Computer Programming, Violin, and Other Fields
   

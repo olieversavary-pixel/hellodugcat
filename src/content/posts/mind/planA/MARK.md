@@ -5,7 +5,7 @@ pubDatetime: 2026-08-18T12:12:12Z
 featured: true
 draft: false
 tags: ["plan"]
-description: A Adventure,yes!
+description: 表格與冒險
 ---
 # 感知 — 建模 — 生成
 # Perception — Modeling — Generation
