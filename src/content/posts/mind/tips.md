@@ -4,7 +4,7 @@ author: savary
 pubDatetime: 2026-08-19T12:12:12Z
 featured: true
 draft: false
-tags: ["mind"]
+tags: ["Mind","Crossover"]
 description: 道本道
 ---
 ### Teach a Person to Fish, Not Just Give Them a Fish

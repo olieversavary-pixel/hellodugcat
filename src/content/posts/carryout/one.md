@@ -4,7 +4,7 @@ author: savary
 pubDatetime: 2026-08-20T12:12:12Z
 featured: true
 draft: false
-tags: ["actions"]
+tags: ["Actions"]
 description: 隨筆與資源整理
 ---
 Aug 20th, 2026
