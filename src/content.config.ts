@@ -21,8 +21,6 @@ const posts = defineCollection({
       canonicalURL: z.string().optional(),
       hideEditPost: z.boolean().optional(),
       timezone: z.string().optional(),
-      audio: z.string().optional(),
-      audio_bytes: z.number().optional(),
     }),
 });
 
