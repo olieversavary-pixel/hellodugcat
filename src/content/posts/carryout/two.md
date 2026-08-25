@@ -1,11 +1,11 @@
 ---
-title: Formalization:Documentation,Translation and Decipherment
+title: Formalization:Record,Translation and Decipherment
 author: savary
 pubDatetime: 2026-08-21T12:12:12Z
 featured: true
 draft: false
 tags: ["actions"]
-description: A Adventure
+description: 思考形式化工具對思維整理的必要性
 audio: /qin1.mp3
 ---
 # 随笔
