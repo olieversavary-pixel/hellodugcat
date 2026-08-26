@@ -1,5 +1,5 @@
 ---
-title: Slices of Flow State
+title: "Slices of Flow State"
 author: savary
 pubDatetime: 2026-08-25T12:12:12Z
 featured: true
