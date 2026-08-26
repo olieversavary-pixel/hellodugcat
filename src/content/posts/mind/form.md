@@ -1,3 +1,13 @@
+---
+title: Slices of Flow State
+author: savary
+pubDatetime: 2026-08-25T12:12:12Z
+featured: true
+draft: false
+tags: ["Mind"]
+description: 個體樣本與盲人編碼
+---
+
 - Aug 25th, 2026
 - 多年时间沉淀，历经回忆，分析，总结三个模块思考  
   *Years of accumulation, through three modules of reflection: recall, analysis, and summary*
