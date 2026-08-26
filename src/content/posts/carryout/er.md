@@ -1,5 +1,5 @@
 ---
-title: Formalization: Record, Translation and Decipherment
+title: Formalization:Record,Translation and Decipherment
 author: savary
 pubDatetime: 2026-08-24T12:12:12Z
 featured: true
