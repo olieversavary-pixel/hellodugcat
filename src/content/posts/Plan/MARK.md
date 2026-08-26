@@ -1,5 +1,5 @@
 ---
-title: Making Sense of the Perpetual Mind
+title: Making Sense of the Perpetual Mind v1
 author: savary
 pubDatetime: 2026-08-18T12:12:12Z
 featured: true
